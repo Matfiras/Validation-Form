@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#style-of-body{
+font-family: 'Roboto', sans-serif;
+background-color: rgba(81, 52, 70, 1);
+-webkit-animation-name: back;
+-webkit-animation-duration: 5s; 
+animation-name: back;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes back {
+from {background-color:rgba(81, 52, 70, 1);}
+to {background-color: rgba(49, 49, 96, 1);}
+}
+
+@keyframes back {
+from {background-color:rgba(81, 52, 70, 1);}
+to {background-color: rgba(49, 49, 96, 1);}
+}
+.page-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+}
+.input-name{
+    color:white;
+}
+.two-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 41.6%;
+    margin-top:3%;
+}
+.adjustement-button{
+    width: 200px;
+    height: 35px;
+    margin: 0.5% 0 0.2%;
+}
